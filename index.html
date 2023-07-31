@@ -6,23 +6,73 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>CV Jose palma</title>
 </head>
-<body>
+<body style="background-color: cadetblue;">
     <div class="container">
-        <h1>Jose Luis Palma Piguave</h1>
-        <h2>Desarrollador web / escritorio </h2>
-        <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                habilidades
-              </div>
-              <div class="col">
-                sobre mi
-              </div>
-              <div class="col">
-                contacto
-              </div>
+        <!---- para seleccionar menu---->
+        <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+            <a class="navbar-brand" href="#">Jose Luis Palma Piguave</a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Mis Conocimientos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading3">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading4">Mis Redes</a>
+                    </li>
+                </ul>
+        </nav>
+          <!-- Termina menu-->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body p-3 rounded-2" tabindex="0">
+            <div>
+                <img src="img/perfil.gif" width="100%" height="100%">
             </div>
-          </div>
+            <h4 id="scrollspyHeading1">Sobre mi</h4>
+            <p>Nacionalidad: Ecuatoriana</p>
+            <p>Ciudad: Guayaquil</p>
+            <p>Experiencia global: Junior</p>
+            <p>Soy Graduado de la Universidad Agraria del Ecuador  con el titulo de Ingenieria en computacion y sistemas
+                tengo conocimientos en areas de la programación web / programación de Escritorio y Base de datos
+            </p>
+            <h4 id="scrollspyHeading2">Mis Conocimientos</h4>
+            <div class="row"> 
+                <div class="col">
+                    <h4>Tecnologias Principales</h4>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Tecnologias .net : VB/ASP</li>
+                        <li>C#</li>
+                        <li>JavaScript</li>
+                        <li>SQL Server</li>
+                        <li>MySQl</li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Otros Conocimientos</h4>
+                    <ul>
+                        <li>Mantenimiento Preventivo y correptivo de Computadoras</li>
+                        <li>Manejo de Redes </li>
+                        <li>Formatos y Reportes </li>
+                        <li>Soporte a Usuarios </li>
+                    </ul>
+                </div>
+            </div>
+            <h4 id="scrollspyHeading3">Contacto</h4>
+            <ul>
+                <li>Correo: joseluispalmapiguave@gmail.com</li>
+                <li>Celular: 0991088607</li>
+            </ul>
+            <h4 id="scrollspyHeading4">Mis Redes</h4>
+            <ul>
+                <li><a href="https://github.com/jpkuro">GitHub: https://github.com/jpkuro</a></li>
+                <li><a href="https://www.linkedin.com/in/jose-luis-palma-piguave-97a041169">LinkedIn: https://www.linkedin.com/in/jose-luis-palma-piguave-97a041169</a></li>
+            </ul>
+        </div>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
